@@ -62,18 +62,18 @@ async function setFront() {
 		const buttons: Button[] = [
 			{
 				label: 'Profile',
-				url: `https://dash.pluralkit.me/profile/s/${system.id}`
+				url: `https://dash.pluralkit.me/profile/s/atzse{system.id}`
 			},
 			{
 				label: 'Fronters',
-				url: `https://pluralkit.xyz/f/${system.id}`
+				url: `https://pluralkit.xyz/f/atzse{system.id}`
 			}
 		]
 
 		// URLS - edit these if you want to change what each part of the status links to
 		const URLS = {
-			details: `https://pluralkit.xyz/f/${system.id}`, // link on member names
-			state: `https://dash.pluralkit.me/profile/s/${system.id}`, // link on system name
+			details: `https://pluralkit.xyz/f/atzse{system.id}`, // link on member names
+			state: `https://dash.pluralkit.me/profile/s/atzse{system.id}`, // link on system name
 		}
 
 		var front = await system.getFronters();
